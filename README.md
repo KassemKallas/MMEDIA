@@ -3,7 +3,7 @@ Simulation files for the paper "A message passing approach for decision fusion o
 
 Authors: Andrea Abrardo, Mauro Barni, Kassem Kallas, Benedetta Tondi
 
-Abstract
+Abstract:
 We consider a setup in which a Fusion Center (FC) makes a binary decision on the sequence of system states by relying on local observations provided by both honest and byzantine nodes, ie, nodes that deliberately alter the result of the local decision to induce an error at the fusion center. In this setting, we assume a Markovian information model for the status with a given transition probability that can be perfectly estimated at the FC. Hence, we consider an attacking strategy where the byzantine nodes can coordinate their attacks by producing correlated reports, with the aim of mimicking the behavior of the original information and at the same time minimizing the information conveyed to the FC about the sequence of states. In this scenario, we derive a nearly-optimal fusion scheme based on message passing (MP) and factor graphs. Experimental results show that, although the proposed detector is able to mitigate the effect of Byzantines, the coordination of the efforts is very harmful and significantly impairs the detection performance.
 
 Files:
